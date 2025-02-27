@@ -1,0 +1,27 @@
+:root{
+    --impact-font:"Anton", sans-serif;
+    --Roman-font:"Libre Baskerville", serif;
+    --button-font:"Roboto", sans-serif;
+}
+h1{
+    font-family: var(--impact-font);
+    font-size: 80px;
+    font-weight: 700;
+    color: #000000;
+}
+p{
+    font-family: var(--Roman-font);
+    font-size: 35px;
+    font-weight: 400;
+    color: #000000;
+}
+#btn{
+    width: 250px;
+    height: 80px;
+    background-color: blue;
+    color: white;
+    font-family: var(--button-font);
+}
+#btn:hover{
+    background-color: green;
+}
